@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (4.8.1)
+  - IQKeyboardManager (6.2.0)
+  - lottie-ios (2.5.2)
+  - Material (2.16.4):
+    - Material/Core (= 2.16.4)
+  - Material/Core (2.16.4):
+    - Motion (~> 1.4.3)
+  - Motion (1.4.3):
+    - Motion/Core (= 1.4.3)
+  - Motion/Core (1.4.3)
+  - NVActivityIndicatorView (4.6.1):
+    - NVActivityIndicatorView/Presenter (= 4.6.1)
+  - NVActivityIndicatorView/Presenter (4.6.1)
+  - ReachabilitySwift (4.3.0)
+  - SDWebImage (4.4.5):
+    - SDWebImage/Core (= 4.4.5)
+  - SDWebImage/Core (4.4.5)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - IQKeyboardManager
+  - lottie-ios
+  - Material
+  - NVActivityIndicatorView
+  - ReachabilitySwift
+  - SDWebImage
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - IQKeyboardManager
+    - lottie-ios
+    - Material
+    - Motion
+    - NVActivityIndicatorView
+    - ReachabilitySwift
+    - SDWebImage
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
+  Material: 4ed78690b09ffd148b5ffab6b4367fb1d8da1cd3
+  Motion: 153ba49692997888556c7a95207278a8b1f8be95
+  NVActivityIndicatorView: 4ca19fccc84595a78957336a086d00a49be6ce61
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+  SDWebImage: ecc03494e973b93b80213649d32175f8d2d17d4d
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: da8934d066acaf3c09b8762576225900a6c50b3d
+
+COCOAPODS: 1.6.0

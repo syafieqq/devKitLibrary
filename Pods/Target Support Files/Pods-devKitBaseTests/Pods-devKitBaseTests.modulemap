@@ -1,0 +1,6 @@
+module Pods_devKitBaseTests {
+  umbrella header "Pods-devKitBaseTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
