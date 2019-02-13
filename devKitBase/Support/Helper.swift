@@ -72,39 +72,38 @@ class Helper {
             // Helper.helper.switchToViewController(Navigation: "mainVC")
             print("Reachable via Cellular")
         case .none:
-            let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "noWifi") as? NoInternetConnectionViewController
-            UIApplication.shared.keyWindow?.rootViewController?.present(vc!, animated: true, completion: nil)
+        
 //            Helper.helper.switchToViewController(Navigation: "noWifi")
             print("Network not reachable")
         }
     }
     
-    func switchToNavigationViewController(Navigation : String ) {
-        
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let naviVC = storyboard.instantiateViewController(withIdentifier: Navigation) as! UINavigationController
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        appDelegate.window?.rootViewController = naviVC
-        
-    }
-    
-    func switchToTabViewController(Navigation : String ) {
-        
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let naviVC = storyboard.instantiateViewController(withIdentifier: Navigation) as! UITabBarController
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        appDelegate.window?.rootViewController = naviVC
-        
-    }
-    
-    func switchToViewController(Navigation : String ) {
-        
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let naviVC = storyboard.instantiateViewController(withIdentifier: Navigation)
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        appDelegate.window?.rootViewController = naviVC
-        
-    }
+//    func switchToNavigationViewController(Navigation : String ) {
+//
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        let naviVC = storyboard.instantiateViewController(withIdentifier: Navigation) as! UINavigationController
+//        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+//        appDelegate.window?.rootViewController = naviVC
+//
+//    }
+//
+//    func switchToTabViewController(Navigation : String ) {
+//
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        let naviVC = storyboard.instantiateViewController(withIdentifier: Navigation) as! UITabBarController
+//        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+//        appDelegate.window?.rootViewController = naviVC
+//
+//    }
+//
+//    func switchToViewController(Navigation : String ) {
+//
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        let naviVC = storyboard.instantiateViewController(withIdentifier: Navigation)
+//        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+//        appDelegate.window?.rootViewController = naviVC
+//
+//    }
     
     func shadowButton(globeButton : UIButton) {
         globeButton.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
