@@ -12,13 +12,13 @@ import Material
 import Reachability
 import MessageUI
 
-public class Helper {
+open class Helper {
     
    
-    public static let helper = Helper()
+    static let helper = Helper()
     let reachbility = Reachability()!
 
-    public func checkConnection() {
+    open func checkConnection() {
         
         DispatchQueue.main.async {
             
@@ -31,12 +31,12 @@ public class Helper {
         }
     }
     
-    public func navigationConfig(title: String, vc: UIViewController) {
+    open func navigationConfig(title: String, vc: UIViewController) {
         vc.navigationItem.title = title
         vc.navigationController?.navigationBar.tintColor = UIColor.white
     }
     
-    public func webPrompt(urlString: String) {
+    open func webPrompt(urlString: String) {
         if let url = URL(string: urlString), UIApplication.shared.canOpenURL(url) {
             if #available(iOS 10.0, *) {
                 UIApplication.shared.open(url, options: [:], completionHandler: nil)
@@ -46,7 +46,7 @@ public class Helper {
         }
     }
     
-    public func sendEmail(subject: String, messageBody: String, recipients: [String], viewcontroller: UIViewController ) {
+    open func sendEmail(subject: String, messageBody: String, recipients: [String], viewcontroller: UIViewController ) {
         let mail = MFMailComposeViewController()
         mail.mailComposeDelegate = viewcontroller as? MFMailComposeViewControllerDelegate
         mail.setSubject(subject)
@@ -55,7 +55,7 @@ public class Helper {
         viewcontroller.present(mail, animated: true, completion: nil)
     }
     
-    public func callPhone(phoneNumber: String) {
+    open func callPhone(phoneNumber: String) {
         let url: NSURL = URL(string: "TEL://\(phoneNumber)")! as NSURL
         UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
     }
@@ -105,7 +105,7 @@ public class Helper {
 //
 //    }
     
-    public func shadowButton(globeButton : UIButton) {
+    open func shadowButton(globeButton : UIButton) {
         globeButton.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
         globeButton.layer.shadowOffset = CGSize(width: 0.0, height: 2.0)
         globeButton.layer.shadowOpacity = 1.0
@@ -114,7 +114,7 @@ public class Helper {
         globeButton.layer.cornerRadius = 5.0
     }
     
-    public func iconTextField (textField : UITextField, imageName : String) {
+    open func iconTextField (textField : UITextField, imageName : String) {
         
         let leftImageView = UIImageView()
         leftImageView.image = UIImage(named: imageName)
