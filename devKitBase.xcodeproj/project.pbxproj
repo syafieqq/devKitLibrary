@@ -7,13 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5789F59221569B200E954C6 /* UserDefaultExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5789F27221569B200E954C6 /* UserDefaultExtension.swift */; };
+		A5789F5A221569B200E954C6 /* TapGestureExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5789F28221569B200E954C6 /* TapGestureExtension.swift */; };
+		A5789F5B221569B200E954C6 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5789F29221569B200E954C6 /* ImageExtension.swift */; };
+		A5789F5C221569B200E954C6 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5789F2A221569B200E954C6 /* UIViewExtensions.swift */; };
+		A5789F5D221569B200E954C6 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5789F2B221569B200E954C6 /* StringExtension.swift */; };
+		A5789F5E221569B200E954C6 /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5789F2C221569B200E954C6 /* TextFieldExtension.swift */; };
+		A5789F5F221569B200E954C6 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5789F2D221569B200E954C6 /* DateExtension.swift */; };
+		A5789F60221569B200E954C6 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5789F2F221569B200E954C6 /* Alert.swift */; };
+		A5789F61221569B200E954C6 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5789F30221569B200E954C6 /* Regex.swift */; };
+		A5789F62221569B200E954C6 /* AlertDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5789F31221569B200E954C6 /* AlertDictionary.swift */; };
+		A5789F63221569B200E954C6 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5789F32221569B200E954C6 /* Helper.swift */; };
+		A5789F64221569B200E954C6 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5789F33221569B200E954C6 /* LoadingView.swift */; };
+		A5789F65221569B200E954C6 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F35221569B200E954C6 /* Roboto-Medium.ttf */; };
+		A5789F66221569B200E954C6 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F36221569B200E954C6 /* Roboto-Light.ttf */; };
+		A5789F67221569B200E954C6 /* AvenirLTStd-Oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F37221569B200E954C6 /* AvenirLTStd-Oblique.otf */; };
+		A5789F68221569B200E954C6 /* AvenirLTStd-BookOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F38221569B200E954C6 /* AvenirLTStd-BookOblique.otf */; };
+		A5789F69221569B200E954C6 /* AvenirLTStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F39221569B200E954C6 /* AvenirLTStd-Medium.otf */; };
+		A5789F6A221569B200E954C6 /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F3A221569B200E954C6 /* RobotoCondensed-Bold.ttf */; };
+		A5789F6B221569B200E954C6 /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F3B221569B200E954C6 /* RobotoCondensed-Light.ttf */; };
+		A5789F6C221569B200E954C6 /* AvenirLTStd-LightOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F3C221569B200E954C6 /* AvenirLTStd-LightOblique.otf */; };
+		A5789F6D221569B200E954C6 /* AvenirLTStd-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F3D221569B200E954C6 /* AvenirLTStd-Heavy.otf */; };
+		A5789F6E221569B200E954C6 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F3E221569B200E954C6 /* Roboto-Regular.ttf */; };
+		A5789F6F221569B200E954C6 /* AvenirLTStd-HeavyOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F3F221569B200E954C6 /* AvenirLTStd-HeavyOblique.otf */; };
+		A5789F70221569B200E954C6 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F40221569B200E954C6 /* Roboto-MediumItalic.ttf */; };
+		A5789F71221569B200E954C6 /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F41221569B200E954C6 /* RobotoCondensed-Italic.ttf */; };
+		A5789F72221569B200E954C6 /* AvenirLTStd-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F42221569B200E954C6 /* AvenirLTStd-Light.otf */; };
+		A5789F73221569B200E954C6 /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F43221569B200E954C6 /* RobotoCondensed-BoldItalic.ttf */; };
+		A5789F74221569B200E954C6 /* Apache License.txt in Resources */ = {isa = PBXBuildFile; fileRef = A5789F44221569B200E954C6 /* Apache License.txt */; };
+		A5789F75221569B200E954C6 /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F45221569B200E954C6 /* RobotoCondensed-LightItalic.ttf */; };
+		A5789F76221569B200E954C6 /* AvenirLTStd-BlackOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F46221569B200E954C6 /* AvenirLTStd-BlackOblique.otf */; };
+		A5789F77221569B200E954C6 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F47221569B200E954C6 /* Roboto-ThinItalic.ttf */; };
+		A5789F78221569B200E954C6 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F48221569B200E954C6 /* RobotoCondensed-Regular.ttf */; };
+		A5789F79221569B200E954C6 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F49221569B200E954C6 /* Roboto-BoldItalic.ttf */; };
+		A5789F7A221569B200E954C6 /* AvenirLTStd-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F4A221569B200E954C6 /* AvenirLTStd-Black.otf */; };
+		A5789F7B221569B200E954C6 /* AvenirLTStd-MediumOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F4B221569B200E954C6 /* AvenirLTStd-MediumOblique.otf */; };
+		A5789F7C221569B200E954C6 /* AvenirLTStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F4C221569B200E954C6 /* AvenirLTStd-Book.otf */; };
+		A5789F7D221569B200E954C6 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F4D221569B200E954C6 /* Roboto-LightItalic.ttf */; };
+		A5789F7E221569B200E954C6 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F4E221569B200E954C6 /* Roboto-Italic.ttf */; };
+		A5789F7F221569B200E954C6 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F4F221569B200E954C6 /* Roboto-BlackItalic.ttf */; };
+		A5789F80221569B200E954C6 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F50221569B200E954C6 /* Roboto-Bold.ttf */; };
+		A5789F81221569B200E954C6 /* AvenirLTStd-Roman.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F51221569B200E954C6 /* AvenirLTStd-Roman.otf */; };
+		A5789F82221569B200E954C6 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F52221569B200E954C6 /* Roboto-Thin.ttf */; };
+		A5789F83221569B200E954C6 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5789F53221569B200E954C6 /* Roboto-Black.ttf */; };
+		A5789F84221569B200E954C6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5789F55221569B200E954C6 /* CardView.swift */; };
+		A5789F85221569B200E954C6 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5789F56221569B200E954C6 /* CustomButton.swift */; };
+		A5789F86221569B200E954C6 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5789F57221569B200E954C6 /* CustomTextField.swift */; };
+		A5789F87221569B200E954C6 /* CustomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5789F58221569B200E954C6 /* CustomImage.swift */; };
 		A5DB3DBA2213F4670088E7E3 /* devKitBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DB3DB02213F4670088E7E3 /* devKitBase.framework */; };
 		A5DB3DBF2213F4670088E7E3 /* devKitBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DB3DBE2213F4670088E7E3 /* devKitBaseTests.swift */; };
 		A5DB3DC12213F4670088E7E3 /* devKitBase.h in Headers */ = {isa = PBXBuildFile; fileRef = A5DB3DB32213F4670088E7E3 /* devKitBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5DB3DCE2213FBD40088E7E3 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = A5DB3DCA2213FBD40088E7E3 /* Fonts */; };
-		A5DB3DCF2213FBD40088E7E3 /* CustomUI in Resources */ = {isa = PBXBuildFile; fileRef = A5DB3DCB2213FBD40088E7E3 /* CustomUI */; };
-		A5DB3DD02213FBD40088E7E3 /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = A5DB3DCC2213FBD40088E7E3 /* Extensions */; };
-		A5DB3DD12213FBD40088E7E3 /* Support in Resources */ = {isa = PBXBuildFile; fileRef = A5DB3DCD2213FBD40088E7E3 /* Support */; };
 		A5DB3DD3221415650088E7E3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A5DB3DD22214155B0088E7E3 /* LICENSE */; };
 		B3D06FC5575F1ED439A4BE74 /* libPods-devKitBase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9513B67C87DA652DBB62F0 /* libPods-devKitBase.a */; };
 		D432199DF78D5CA07275C240 /* libPods-devKitBaseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8405A6E2B245959A5F8CCFFC /* libPods-devKitBaseTests.a */; };
@@ -34,16 +77,59 @@
 		4E7D704D3F46B3F831B30085 /* Pods-devKitBaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devKitBaseTests.release.xcconfig"; path = "Target Support Files/Pods-devKitBaseTests/Pods-devKitBaseTests.release.xcconfig"; sourceTree = "<group>"; };
 		4E8D45C5BF74F259A9A8B470 /* Pods-devKitBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devKitBase.release.xcconfig"; path = "Target Support Files/Pods-devKitBase/Pods-devKitBase.release.xcconfig"; sourceTree = "<group>"; };
 		8405A6E2B245959A5F8CCFFC /* libPods-devKitBaseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-devKitBaseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5789F27221569B200E954C6 /* UserDefaultExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultExtension.swift; sourceTree = "<group>"; };
+		A5789F28221569B200E954C6 /* TapGestureExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapGestureExtension.swift; sourceTree = "<group>"; };
+		A5789F29221569B200E954C6 /* ImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		A5789F2A221569B200E954C6 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		A5789F2B221569B200E954C6 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		A5789F2C221569B200E954C6 /* TextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
+		A5789F2D221569B200E954C6 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		A5789F2F221569B200E954C6 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		A5789F30221569B200E954C6 /* Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
+		A5789F31221569B200E954C6 /* AlertDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertDictionary.swift; sourceTree = "<group>"; };
+		A5789F32221569B200E954C6 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		A5789F33221569B200E954C6 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		A5789F35221569B200E954C6 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		A5789F36221569B200E954C6 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		A5789F37221569B200E954C6 /* AvenirLTStd-Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Oblique.otf"; sourceTree = "<group>"; };
+		A5789F38221569B200E954C6 /* AvenirLTStd-BookOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-BookOblique.otf"; sourceTree = "<group>"; };
+		A5789F39221569B200E954C6 /* AvenirLTStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Medium.otf"; sourceTree = "<group>"; };
+		A5789F3A221569B200E954C6 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		A5789F3B221569B200E954C6 /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		A5789F3C221569B200E954C6 /* AvenirLTStd-LightOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-LightOblique.otf"; sourceTree = "<group>"; };
+		A5789F3D221569B200E954C6 /* AvenirLTStd-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Heavy.otf"; sourceTree = "<group>"; };
+		A5789F3E221569B200E954C6 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		A5789F3F221569B200E954C6 /* AvenirLTStd-HeavyOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-HeavyOblique.otf"; sourceTree = "<group>"; };
+		A5789F40221569B200E954C6 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A5789F41221569B200E954C6 /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		A5789F42221569B200E954C6 /* AvenirLTStd-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Light.otf"; sourceTree = "<group>"; };
+		A5789F43221569B200E954C6 /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A5789F44221569B200E954C6 /* Apache License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Apache License.txt"; sourceTree = "<group>"; };
+		A5789F45221569B200E954C6 /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		A5789F46221569B200E954C6 /* AvenirLTStd-BlackOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-BlackOblique.otf"; sourceTree = "<group>"; };
+		A5789F47221569B200E954C6 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		A5789F48221569B200E954C6 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		A5789F49221569B200E954C6 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A5789F4A221569B200E954C6 /* AvenirLTStd-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Black.otf"; sourceTree = "<group>"; };
+		A5789F4B221569B200E954C6 /* AvenirLTStd-MediumOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-MediumOblique.otf"; sourceTree = "<group>"; };
+		A5789F4C221569B200E954C6 /* AvenirLTStd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Book.otf"; sourceTree = "<group>"; };
+		A5789F4D221569B200E954C6 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		A5789F4E221569B200E954C6 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		A5789F4F221569B200E954C6 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A5789F50221569B200E954C6 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		A5789F51221569B200E954C6 /* AvenirLTStd-Roman.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Roman.otf"; sourceTree = "<group>"; };
+		A5789F52221569B200E954C6 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		A5789F53221569B200E954C6 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		A5789F55221569B200E954C6 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A5789F56221569B200E954C6 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		A5789F57221569B200E954C6 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		A5789F58221569B200E954C6 /* CustomImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImage.swift; sourceTree = "<group>"; };
 		A5DB3DB02213F4670088E7E3 /* devKitBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = devKitBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DB3DB32213F4670088E7E3 /* devKitBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = devKitBase.h; sourceTree = "<group>"; };
 		A5DB3DB42213F4670088E7E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5DB3DB92213F4670088E7E3 /* devKitBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = devKitBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DB3DBE2213F4670088E7E3 /* devKitBaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = devKitBaseTests.swift; sourceTree = "<group>"; };
 		A5DB3DC02213F4670088E7E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5DB3DCA2213FBD40088E7E3 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
-		A5DB3DCB2213FBD40088E7E3 /* CustomUI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CustomUI; sourceTree = "<group>"; };
-		A5DB3DCC2213FBD40088E7E3 /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extensions; sourceTree = "<group>"; };
-		A5DB3DCD2213FBD40088E7E3 /* Support */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Support; sourceTree = "<group>"; };
 		A5DB3DD22214155B0088E7E3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DCFB0D1731199CA28F968C16 /* Pods-devKitBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devKitBase.debug.xcconfig"; path = "Target Support Files/Pods-devKitBase/Pods-devKitBase.debug.xcconfig"; sourceTree = "<group>"; };
 		F366454E30BC367067074CEE /* Pods-devKitBaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devKitBaseTests.debug.xcconfig"; path = "Target Support Files/Pods-devKitBaseTests/Pods-devKitBaseTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,6 +176,81 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A5789F26221569B200E954C6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A5789F27221569B200E954C6 /* UserDefaultExtension.swift */,
+				A5789F28221569B200E954C6 /* TapGestureExtension.swift */,
+				A5789F29221569B200E954C6 /* ImageExtension.swift */,
+				A5789F2A221569B200E954C6 /* UIViewExtensions.swift */,
+				A5789F2B221569B200E954C6 /* StringExtension.swift */,
+				A5789F2C221569B200E954C6 /* TextFieldExtension.swift */,
+				A5789F2D221569B200E954C6 /* DateExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A5789F2E221569B200E954C6 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A5789F2F221569B200E954C6 /* Alert.swift */,
+				A5789F30221569B200E954C6 /* Regex.swift */,
+				A5789F31221569B200E954C6 /* AlertDictionary.swift */,
+				A5789F32221569B200E954C6 /* Helper.swift */,
+				A5789F33221569B200E954C6 /* LoadingView.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		A5789F34221569B200E954C6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A5789F35221569B200E954C6 /* Roboto-Medium.ttf */,
+				A5789F36221569B200E954C6 /* Roboto-Light.ttf */,
+				A5789F37221569B200E954C6 /* AvenirLTStd-Oblique.otf */,
+				A5789F38221569B200E954C6 /* AvenirLTStd-BookOblique.otf */,
+				A5789F39221569B200E954C6 /* AvenirLTStd-Medium.otf */,
+				A5789F3A221569B200E954C6 /* RobotoCondensed-Bold.ttf */,
+				A5789F3B221569B200E954C6 /* RobotoCondensed-Light.ttf */,
+				A5789F3C221569B200E954C6 /* AvenirLTStd-LightOblique.otf */,
+				A5789F3D221569B200E954C6 /* AvenirLTStd-Heavy.otf */,
+				A5789F3E221569B200E954C6 /* Roboto-Regular.ttf */,
+				A5789F3F221569B200E954C6 /* AvenirLTStd-HeavyOblique.otf */,
+				A5789F40221569B200E954C6 /* Roboto-MediumItalic.ttf */,
+				A5789F41221569B200E954C6 /* RobotoCondensed-Italic.ttf */,
+				A5789F42221569B200E954C6 /* AvenirLTStd-Light.otf */,
+				A5789F43221569B200E954C6 /* RobotoCondensed-BoldItalic.ttf */,
+				A5789F44221569B200E954C6 /* Apache License.txt */,
+				A5789F45221569B200E954C6 /* RobotoCondensed-LightItalic.ttf */,
+				A5789F46221569B200E954C6 /* AvenirLTStd-BlackOblique.otf */,
+				A5789F47221569B200E954C6 /* Roboto-ThinItalic.ttf */,
+				A5789F48221569B200E954C6 /* RobotoCondensed-Regular.ttf */,
+				A5789F49221569B200E954C6 /* Roboto-BoldItalic.ttf */,
+				A5789F4A221569B200E954C6 /* AvenirLTStd-Black.otf */,
+				A5789F4B221569B200E954C6 /* AvenirLTStd-MediumOblique.otf */,
+				A5789F4C221569B200E954C6 /* AvenirLTStd-Book.otf */,
+				A5789F4D221569B200E954C6 /* Roboto-LightItalic.ttf */,
+				A5789F4E221569B200E954C6 /* Roboto-Italic.ttf */,
+				A5789F4F221569B200E954C6 /* Roboto-BlackItalic.ttf */,
+				A5789F50221569B200E954C6 /* Roboto-Bold.ttf */,
+				A5789F51221569B200E954C6 /* AvenirLTStd-Roman.otf */,
+				A5789F52221569B200E954C6 /* Roboto-Thin.ttf */,
+				A5789F53221569B200E954C6 /* Roboto-Black.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A5789F54221569B200E954C6 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				A5789F55221569B200E954C6 /* CardView.swift */,
+				A5789F56221569B200E954C6 /* CustomButton.swift */,
+				A5789F57221569B200E954C6 /* CustomTextField.swift */,
+				A5789F58221569B200E954C6 /* CustomImage.swift */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
 		A5DB3DA62213F4670088E7E3 = {
 			isa = PBXGroup;
 			children = (
@@ -114,12 +275,12 @@
 		A5DB3DB22213F4670088E7E3 /* devKitBase */ = {
 			isa = PBXGroup;
 			children = (
-				A5DB3DCB2213FBD40088E7E3 /* CustomUI */,
-				A5DB3DCC2213FBD40088E7E3 /* Extensions */,
-				A5DB3DCA2213FBD40088E7E3 /* Fonts */,
-				A5DB3DCD2213FBD40088E7E3 /* Support */,
 				A5DB3DB32213F4670088E7E3 /* devKitBase.h */,
 				A5DB3DB42213F4670088E7E3 /* Info.plist */,
+				A5789F54221569B200E954C6 /* CustomUI */,
+				A5789F26221569B200E954C6 /* Extensions */,
+				A5789F34221569B200E954C6 /* Fonts */,
+				A5789F2E221569B200E954C6 /* Support */,
 			);
 			path = devKitBase;
 			sourceTree = "<group>";
@@ -227,11 +388,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5DB3DD12213FBD40088E7E3 /* Support in Resources */,
-				A5DB3DD02213FBD40088E7E3 /* Extensions in Resources */,
-				A5DB3DCE2213FBD40088E7E3 /* Fonts in Resources */,
-				A5DB3DCF2213FBD40088E7E3 /* CustomUI in Resources */,
+				A5789F77221569B200E954C6 /* Roboto-ThinItalic.ttf in Resources */,
+				A5789F7C221569B200E954C6 /* AvenirLTStd-Book.otf in Resources */,
+				A5789F75221569B200E954C6 /* RobotoCondensed-LightItalic.ttf in Resources */,
+				A5789F7F221569B200E954C6 /* Roboto-BlackItalic.ttf in Resources */,
+				A5789F7A221569B200E954C6 /* AvenirLTStd-Black.otf in Resources */,
+				A5789F7D221569B200E954C6 /* Roboto-LightItalic.ttf in Resources */,
+				A5789F7B221569B200E954C6 /* AvenirLTStd-MediumOblique.otf in Resources */,
+				A5789F74221569B200E954C6 /* Apache License.txt in Resources */,
+				A5789F81221569B200E954C6 /* AvenirLTStd-Roman.otf in Resources */,
+				A5789F6D221569B200E954C6 /* AvenirLTStd-Heavy.otf in Resources */,
+				A5789F6E221569B200E954C6 /* Roboto-Regular.ttf in Resources */,
+				A5789F83221569B200E954C6 /* Roboto-Black.ttf in Resources */,
+				A5789F70221569B200E954C6 /* Roboto-MediumItalic.ttf in Resources */,
+				A5789F7E221569B200E954C6 /* Roboto-Italic.ttf in Resources */,
+				A5789F71221569B200E954C6 /* RobotoCondensed-Italic.ttf in Resources */,
+				A5789F68221569B200E954C6 /* AvenirLTStd-BookOblique.otf in Resources */,
+				A5789F67221569B200E954C6 /* AvenirLTStd-Oblique.otf in Resources */,
+				A5789F78221569B200E954C6 /* RobotoCondensed-Regular.ttf in Resources */,
+				A5789F73221569B200E954C6 /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				A5789F6B221569B200E954C6 /* RobotoCondensed-Light.ttf in Resources */,
+				A5789F79221569B200E954C6 /* Roboto-BoldItalic.ttf in Resources */,
+				A5789F82221569B200E954C6 /* Roboto-Thin.ttf in Resources */,
+				A5789F72221569B200E954C6 /* AvenirLTStd-Light.otf in Resources */,
+				A5789F65221569B200E954C6 /* Roboto-Medium.ttf in Resources */,
+				A5789F6F221569B200E954C6 /* AvenirLTStd-HeavyOblique.otf in Resources */,
+				A5789F80221569B200E954C6 /* Roboto-Bold.ttf in Resources */,
+				A5789F69221569B200E954C6 /* AvenirLTStd-Medium.otf in Resources */,
+				A5789F6C221569B200E954C6 /* AvenirLTStd-LightOblique.otf in Resources */,
+				A5789F76221569B200E954C6 /* AvenirLTStd-BlackOblique.otf in Resources */,
+				A5789F6A221569B200E954C6 /* RobotoCondensed-Bold.ttf in Resources */,
 				A5DB3DD3221415650088E7E3 /* LICENSE in Resources */,
+				A5789F66221569B200E954C6 /* Roboto-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +510,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5789F63221569B200E954C6 /* Helper.swift in Sources */,
+				A5789F59221569B200E954C6 /* UserDefaultExtension.swift in Sources */,
+				A5789F5F221569B200E954C6 /* DateExtension.swift in Sources */,
+				A5789F5B221569B200E954C6 /* ImageExtension.swift in Sources */,
+				A5789F85221569B200E954C6 /* CustomButton.swift in Sources */,
+				A5789F5D221569B200E954C6 /* StringExtension.swift in Sources */,
+				A5789F64221569B200E954C6 /* LoadingView.swift in Sources */,
+				A5789F5E221569B200E954C6 /* TextFieldExtension.swift in Sources */,
+				A5789F84221569B200E954C6 /* CardView.swift in Sources */,
+				A5789F61221569B200E954C6 /* Regex.swift in Sources */,
+				A5789F87221569B200E954C6 /* CustomImage.swift in Sources */,
+				A5789F5C221569B200E954C6 /* UIViewExtensions.swift in Sources */,
+				A5789F60221569B200E954C6 /* Alert.swift in Sources */,
+				A5789F62221569B200E954C6 /* AlertDictionary.swift in Sources */,
+				A5789F5A221569B200E954C6 /* TapGestureExtension.swift in Sources */,
+				A5789F86221569B200E954C6 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +726,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F366454E30BC367067074CEE /* Pods-devKitBaseTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93J2F7DJ5J;
 				INFOPLIST_FILE = devKitBaseTests/Info.plist;
@@ -541,6 +746,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E7D704D3F46B3F831B30085 /* Pods-devKitBaseTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93J2F7DJ5J;
 				INFOPLIST_FILE = devKitBaseTests/Info.plist;
