@@ -15,7 +15,7 @@ import MessageUI
 public class Helper {
     
    
-    static let helper = Helper()
+    public static let helper = Helper()
     let reachbility = Reachability()!
 
     public func checkConnection() {
